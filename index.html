@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_style.css">
     
-    <!--Open Street Map via by Leafletjs-->
+    <!--Open Street Map via by Leafletjs Css-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
-
+   <!--Open Street Map via by Leafletjs js-->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
 
@@ -54,8 +54,14 @@
 <!-- Header -->
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Larnaca, Cyprus</h1>      
-    <p>Larnaca Tour...</p>
+    <h1>Discover Larnaca: Where History Meets the Sea</h1>      
+    <p>Explore Ancient Wonders, Modern Delights and Cypriot Hospitality</p>
+    <br>
+    <br>
+    <p>One of the most remarkable aspects of Larnaca is its warm and welcoming people. 
+      Experience the genuine hospitality of the locals, who are always eager to share their culture and traditions. 
+      Attend local festivals and events to immerse yourself in the vibrant Cypriot way of life. 
+      The warmth and friendliness of Larnaca's residents will make you feel right at home.</p>
   </div>
 </div>
 <!-- Header End-->
@@ -70,7 +76,7 @@
 <div class="jumbotron">
   <div class="container text-center">
     <h1>Contact Us</h1>      
-    <p>Aberdeen Map and Message:...</p>
+    <p>Larnaca Map and Message:...</p>
   </div>
 </div>
 <!-- Header End-->
@@ -98,15 +104,16 @@
       <div id="map"></div>
       
       <script>
-
+//map location
 var map = L.map('map').setView([34.923096, 33.634045], 13);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+// popup show map point and text
 L.marker([34.923096, 33.634045]).addTo(map)
-    .bindPopup('My Home Town Larnaca.')
+    .bindPopup('Welcome To Cyprus... <br> My Home Town Larnaca.')
     .openPopup();
 
       </script>
