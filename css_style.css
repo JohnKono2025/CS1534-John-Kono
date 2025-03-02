@@ -50,4 +50,5 @@ footer {
     margin-bottom: 32px;
     resize: vertical;
   }
+  #map { height: 440px; }
   
