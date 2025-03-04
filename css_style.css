@@ -168,6 +168,23 @@ footer {
             object-fit: cover;
             border-radius: 0px 0px 0 0;
           }
+
+          .historypagetextcontainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+          }
+        
+
+          .historypagetextbox {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            font-family: Arial, sans-serif;
+            width: auto;
+            width: 18%;
+        }
+     
         
         
         
