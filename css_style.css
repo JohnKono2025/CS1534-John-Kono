@@ -10,19 +10,31 @@ body, html {
 }
 
 .myh2 {
-  font-size: 30px; 
+  font-size: 48px; 
 }
 
 .myh3 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .myh4 {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .myp {
   font-size: 14px; 
+}
+
+input[type=submit], input[type=reset] {
+  text-align: center;
+  font-size: 14px;
+  background-color:#454141;
+  color: #fff;
+  padding: 10px 26px;
+}
+.history-page-main-text{
+  padding: 10px;
+  margin: 18px
 }
 
 
@@ -71,7 +83,7 @@ footer {
     margin-bottom: 32px;
     resize: vertical;
   }
-  #map { height: 440px; }
+  #map { height: 490px; }
 
 
     .card-group {
@@ -140,20 +152,20 @@ footer {
           }
 
 
-          .historypagecenter {
+          .history-page-center {
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 50%;
           }
 
-          .historypagecontainer {
+          .history-page-container {
             position: relative;
             max-width: auto; /* Maximum width */
             margin: 0 auto; /* Center it */
           }
           
-          .historypagecontainer .content {
+          .history-page-container .content {
             position: absolute; /* Position the background text */
             bottom: 0; /* At the bottom. Use top:0 to append it to the top */
             background: rgb(0, 0, 0); /* Fallback color */
@@ -164,7 +176,7 @@ footer {
           }
 
                   
-          .historypagecolumn {
+          .history-page-column {
             float: left;
             width: auto;
             gap: 8px;
@@ -173,27 +185,27 @@ footer {
           }
           
           /* Clearfix (clear floats) */
-          .historypagerow::after {
+          .history-page-row::after {
             content: "";
             clear: both;
             display: table;
             
           }
-          .historypagerow img {
+          .history-page-row img {
             width: auto;
             height: 218px;
             object-fit: cover;
             border-radius: 0px 0px 0 0;
           }
 
-          .historypagetextcontainer {
+          .history-page-text-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
           }
         
 
-          .historypagetextbox {
+          .history-page-text-box {
             border: 1px solid #ccc;
             padding: 10px;
             margin: 18px;
