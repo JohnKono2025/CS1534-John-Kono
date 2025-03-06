@@ -54,9 +54,10 @@
 </nav>
 <!-- Nav End -->
 
+
 <!--Banner-->
 <div>
-  <img src="image/main_banner.PNG" alt="Larnaca Banner" style="width:100%; display:block;">
+  <img src="image/main_banner.PNG" alt="Larnaca Banner" class="main-banner">
 
   <a class="weatherwidget-io" href="https://forecast7.com/en/34d9033d62/larnaca/" data-label_1="LARNACA" data-label_2="WEATHER" data-theme="original" >LARNACA WEATHER</a>
 <script>
@@ -90,27 +91,29 @@
   <div class="card">
       <img src="image/culture.jpg" alt="Culture picture">
       <div class="card-title">Culture</div>
-      <p>Culture ...</p>
+      <p>You’ll find a warm and welcoming spirit, evident in its local cuisine, music, and traditional dances.</p>
   </div>
   <div class="card">
       <img src="image/nightlife.jpg" alt="Nightlife picture">
       <div class="card-title">Nightlife</div>
-      <p>Nightlife ...</p>
+      <p>Tavernas and lively bars to bustling nightclubs and seaside lounges, there's something for everyone.</p>
   </div>
   <div class="card">
       <img src="image/attraction.jpg" alt="Attraction picture">
       <div class="card-title">Attraction</div>
-      <p>Attraction ...</p>
+      <p>Larnaca beach's are perfect for swimming, sunbathing, sport activities, cafes and restaurants.
+
+      </p>
   </div>
   <div class="card">
     <img src="image/cycling.jpg" alt="Cycling picture">
     <div class="card-title">Cycling</div>
-    <p>Cycling ...</p>
+    <p>Cycling in Larnaca offers a wonderful way to explore the city's scenic beauty and attractions freely</p>
 </div>
 <div class="card">
   <img src="image/wine_tasting.jpg" alt="Wine Tasting picture">
   <div class="card-title">Wine Tasting</div>
-  <p>Wine Tasting ...</p>
+  <p>Enjoy delightful wine tasting in Larnaca, savoring local flavors and learning winemaking traditions.</p>
 </div>
 </div>
 <!-- section End-->
@@ -125,7 +128,7 @@
     <br>
     <br>
    <h1>Contact Us</h1>      
-    <p>Larnaca Map and Message:...</p>
+    <p>Message:...</p>
   </div>
 
 
@@ -133,9 +136,9 @@
 
 
 <!-- contact form -->
-<div class="container">
-  <div class="row_contact">
-    <div class="column_contact">
+<div class="contactform-container">
+  <div class="contactform-row">
+    <div class="contactform-column">
         <form action="#">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Name...">
@@ -147,13 +150,32 @@
             <input type="reset" value="Clean">
           </form>
 
-    </div>
+    </div> 
+    <div >
+      <img src="image/contactus-image.jpg" alt="Contact Us picture" style="width:740px; height:540px;">
+
+  </div>
+</div>
+</div>
+
+
 
     <!-- Map -->
-    <div class="column_contact">
+
+    <div class="container text-center">
+      <br>
+      <br>
+     <h1>Map:</h1>      
+      <p>Larnaca Map</p>
+    </div>
+
+
+    <div>
       <br>
       <div id="map"></div>
+
       
+
       <script>
 //map location
 var map = L.map('map').setView([34.923096, 33.634045], 13);
@@ -169,13 +191,13 @@ L.marker([34.923096, 33.634045]).addTo(map)
 
       </script>
 
-
+<br>
+<br>
     </div>
 
 
 
-    </div>
-</div>
+
 <!-- Map End-->
 
 <!-- footer -->

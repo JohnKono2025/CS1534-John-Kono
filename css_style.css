@@ -1,82 +1,107 @@
 
-body, html {
+body, html 
+{
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.myh1 {
+.myh1 
+{
   font-size: 58px;
 }
 
-.myh2 {
+.myh2 
+{
   font-size: 48px; 
 }
 
-.myh3 {
+.myh3 
+{
   font-size: 32px;
 }
 
-.myh4 {
+.myh4 
+{
   font-size: 18px;
   font-weight: bold;
 }
 
-.myp {
-  font-size: 14px; 
+.myp 
+{
+  font-size: 16px; 
 }
 
-input[type=submit], input[type=reset] {
+.main-banner 
+{
+  width:100%;
+  display:block;
+}
+
+
+input[type=submit], input[type=reset] 
+{
   text-align: center;
   font-size: 14px;
   background-color:#454141;
   color: #fff;
   padding: 10px 26px;
 }
-.history-page-main-text{
+
+
+.history-page-main-text
+{
   padding: 10px;
   margin: 18px
 }
 
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
-.navbar {
+.navbar 
+{
     margin-bottom: 0;
     border-radius: 0;
 }
 
 /* padding to the footer */
-footer {
+footer
+ {
     text-align: center;  
     padding: 25px;
 }
 
 
 /* contact us / container style */
-.container_contact {
+.contactform-container 
+{
     border-radius: 4px;
     background-color: #f2f2f2;
     padding: 10px;
+    
   }
   
   /* column */
-  .column_contact {
-    float: left;
+  .contactform-column
+   {
+    float: left ;
     width: 50%;
     margin-top: 10px;
     padding: 20px;
   }
   
   /* row */
-  .row_contact:after {
+  .contactform-row:after 
+  {
     content: "";
     display: table;
     clear: both;
+    margin: 0 auto;
   }
 
 
   /* Contact us form  */
-  input[type=text], select, textarea {
+  input[type=text], select, textarea 
+  {
     width: 100%;
     padding: 18px;
     border: 2px solid #909090;
@@ -84,14 +109,22 @@ footer {
     margin-bottom: 32px;
     resize: vertical;
   }
-  #map { height: 490px; }
+
+  
+  #map
+  { 
+    height: 490px; 
+  }
 
 
-    .card-group {
+    .card-group 
+    {
       margin: auto;
-          gap: 20px;
-      }
-      .card {
+      gap: 20px;
+    }
+
+      .card 
+      {
           border: 1px solid #d4cfcf;
           border-radius: 8px;
           padding: 16px;
@@ -99,20 +132,27 @@ footer {
           box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
           
       }
-      .card img {
+
+      .card img 
+      {
         width: auto;
         height: 600px;
         object-fit: cover;
         border-radius: 8px 8px 0 0;
       }
-      .card-title {
+
+      .card-title 
+      {
           font-size: 1.2em;
           margin: 10px 0;
       }
 
-      @media (min-width: 200px) and (max-width: 590px) { 
+      /* ... */  
+      @media (min-width: 200px) and (max-width: 590px) 
+      { 
         
-        .card {
+        .card 
+        {
           max-width: 90%; 
           margin: 6px auto;
           border: 1px solid #ccc;
@@ -122,18 +162,28 @@ footer {
           box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
          }
 
-       .card img {
-            width: auto;
-            height: 400px;
-            object-fit: cover;
-            border-radius: 8px 8px 0 0;
+       .card img 
+       {
+        width: auto;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 8px 8px 0 0;
+       }
+
+          .history-page-text-box 
+          {
+            flex: 1 1 100px;
           }
         
-        }
+      }
 
-        @media (min-width: 600px) and (max-width: 770px)  { 
+        /* ... */  
+
+        @media (min-width: 600px) and (max-width: 770px)  
+        { 
         
-          .card {
+          .card 
+          {            
             max-width: 90%; 
             margin: 6px auto;
             border: 1px solid #ccc;
@@ -143,56 +193,77 @@ footer {
             box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
            }
   
-         .card img {
-              width: auto;
-              height: 400px;
-              object-fit: cover;
-              border-radius: 8px 8px 0 0;
+         .card img 
+         {
+           width: auto;
+           height: 400px;
+           object-fit: cover;
+           border-radius: 8px 8px 0 0;
+         }
+
+
+            .history-page-text-box 
+            {
+              flex: 1 1 100px;
             }
           
+            
+
           }
 
 
-          .history-page-center {
+
+          /* ... */  
+          .history-page-center 
+          {
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 50%;
           }
 
-          .history-page-container {
+
+          /* ... */  
+          .history-page-container 
+          {
             position: relative;
             max-width: auto; /* Maximum width */
             margin: 0 auto; /* Center it */
           }
           
-          .history-page-container .content {
+          /* ... */  
+          .history-page-container .content 
+          {
             position: absolute; /* Position the background text */
             bottom: 0; /* At the bottom. Use top:0 to append it to the top */
             background: rgb(0, 0, 0); /* Fallback color */
-            background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+            background: rgba(0, 0, 0, 0.7); /* Black background with 0.7 opacity */
             color: #f1f1f1; /* Grey text */
             width: 100%; /* Full width */
             padding: 20px; /* Some padding */
           }
 
-                  
-          .history-page-column {
+          /* ... */   
+          .history-page-column 
+          {
             float: left;
             width: auto;
-            gap: 8px;
             padding: 2px;
             
           }
           
-          /* Clearfix (clear floats) */
-          .history-page-row::after {
+          /* ... */
+          .history-page-row::after 
+          {
             content: "";
             clear: both;
             display: table;
             
           }
-          .history-page-row img {
+
+
+          .history-page-row img 
+          {
             width: auto;
             height: 218px;
             object-fit: cover;
@@ -201,23 +272,23 @@ footer {
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
           }
 
-          .history-page-text-container {
+          .history-page-text-container 
+          {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            
           }
         
 
-          .history-page-text-box {
-            border: 1px solid #ccc;
+          .history-page-text-box 
+          {
             padding: 10px;
             margin: 18px;
             font-family: Arial, sans-serif;
             width: 16%;
-            
-        }
+            flex: 1 1 160px;
+            background-color: #edebeb;
+          }
      
         
-        
-        
-  
