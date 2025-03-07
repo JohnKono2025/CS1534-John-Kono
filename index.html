@@ -1,133 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Welcome To Larnaca, Tourism Portal">
+  <meta charset="UTF-8">
+  <meta name="description" content="Welcome To Larnaca, Tourism Portal">
   <meta name="keywords" content="Larnaca, tourism, history">
   <meta name="author" content="John Kono">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css_style.css">
-    
-    <!--Open Street Map via by Leafletjs Css-->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
-   <!--Open Street Map via by Leafletjs js-->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css_style.css">
 
-    <title>Larnaca</title>
+  <!--Open Street Map via by Leafletjs Css-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!--Open Street Map via by Leafletjs js-->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-    <!-- Bootstrap Script Link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
+  <title>Larnaca</title>
 
-  </head>
+  <!-- Bootstrap Script Link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+
 <body>
-<!-- Bootstrap Script -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 
-  
 
 
-<!-- Nav -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="index.html">Larnaca</a>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="history.html">History</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="visit.html">Visit</a>
-        </li>
-      </ul>
+
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="index.html">Larnaca</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="visit.html">Visit</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-<!-- Nav End -->
+  </nav>
+  <!-- Nav End -->
 
 
-<!--Banner-->
-<div>
-  <img src="image/main_banner.PNG" alt="Larnaca Banner" class="main-banner">
+  <!--Banner-->
+  <div>
+    <img src="image/main_banner.PNG" alt="Larnaca Banner" class="main-banner">
 
-  <a class="weatherwidget-io" href="https://forecast7.com/en/34d9033d62/larnaca/" data-label_1="LARNACA" data-label_2="WEATHER" data-theme="original" >LARNACA WEATHER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/34d9033d62/larnaca/" data-label_1="LARNACA"
+      data-label_2="WEATHER" data-theme="original">LARNACA WEATHER</a>
+    <script>
+      !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+    </script>
   </div>
   <!--Banner End-->
 
 
 
-<!-- Header -->
-<div class="jumbotron">
-  <div class="container text-center">
-    <br>
+  <!-- Header -->
+  <div class="jumbotron">
+    <div class="container text-center">
+      <br>
 
-    <h1>Explore Ancient Wonders, Modern Delights and Cypriot Hospitality</h1>      
-    
-    <p>One of the most remarkable aspects of Larnaca is its warm and welcoming people. 
-      Experience the genuine hospitality of the locals, who are always eager to share their culture and traditions. 
-      Attend local festivals and events to immerse yourself in the vibrant Cypriot way of life. 
-      The warmth and friendliness of Larnaca's residents will make you feel right at home.</p>
+      <h1>Explore Ancient Wonders, Modern Delights and Cypriot Hospitality</h1>
+
+      <p>One of the most remarkable aspects of Larnaca is its warm and welcoming people.
+        Experience the genuine hospitality of the locals, who are always eager to share their culture and traditions.
+        Attend local festivals and events to immerse yourself in the vibrant Cypriot way of life.
+        The warmth and friendliness of Larnaca's residents will make you feel right at home.</p>
+    </div>
   </div>
-</div>
-<!-- Header End-->
+  <!-- Header End-->
 
 
-<!-- section -->
- <br>
- 
-<div class="card-group">
-  <div class="card">
+  <!-- section -->
+  <br>
+
+  <div class="card-group">
+    <div class="card">
       <img src="image/culture.jpg" alt="Culture picture">
       <div class="card-title">Culture</div>
       <p>You’ll find a warm and welcoming spirit, evident in its local cuisine, music, and traditional dances.</p>
-  </div>
-  <div class="card">
+    </div>
+    <div class="card">
       <img src="image/nightlife.jpg" alt="Nightlife picture">
       <div class="card-title">Nightlife</div>
       <p>Tavernas and lively bars to bustling nightclubs and seaside lounges, there's something for everyone.</p>
-  </div>
-  <div class="card">
+    </div>
+    <div class="card">
       <img src="image/attraction.jpg" alt="Attraction picture">
       <div class="card-title">Attraction</div>
       <p>Larnaca beach's are perfect for swimming, sunbathing, sport activities, cafes and restaurants.
 
       </p>
+    </div>
+    <div class="card">
+      <img src="image/cycling.jpg" alt="Cycling picture">
+      <div class="card-title">Cycling</div>
+      <p>Cycling in Larnaca offers a wonderful way to explore the city's scenic beauty and attractions freely</p>
+    </div>
+    <div class="card">
+      <img src="image/wine_tasting.jpg" alt="Wine Tasting picture">
+      <div class="card-title">Wine Tasting</div>
+      <p>Enjoy delightful wine tasting in Larnaca, savoring local flavors and learning winemaking traditions.</p>
+    </div>
   </div>
-  <div class="card">
-    <img src="image/cycling.jpg" alt="Cycling picture">
-    <div class="card-title">Cycling</div>
-    <p>Cycling in Larnaca offers a wonderful way to explore the city's scenic beauty and attractions freely</p>
-</div>
-<div class="card">
-  <img src="image/wine_tasting.jpg" alt="Wine Tasting picture">
-  <div class="card-title">Wine Tasting</div>
-  <p>Enjoy delightful wine tasting in Larnaca, savoring local flavors and learning winemaking traditions.</p>
-</div>
-</div>
-<!-- section End-->
+  <!-- section End-->
 
 
-<!-- article -->
+  <!-- article -->
 
 
-<!-- map & contact form section -->
+  <!-- map & contact form section -->
 
   <div class="container text-center">
     <br>
     <br>
-   <h1>Contact Us</h1>      
+    <h1>Contact Us</h1>
     <p>Message:...</p>
   </div>
 
@@ -135,78 +142,79 @@
 
 
 
-<!-- contact form -->
-<div class="contactform-container">
-  <div class="contactform-row">
-    <div class="contactform-column">
+  <!-- contact form -->
+  <div class="contactform-container">
+    <div class="contactform-row">
+      <div class="contactform-column">
         <form action="#">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name...">
-            <label for="surname">Last Name</label>
-            <input type="text" id="surname" name="surname" placeholder="Surname...">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Your Message..." style="height: 186px"></textarea>
-            <input type="submit" value="Send">
-            <input type="reset" value="Clean">
-          </form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Name...">
+          <label for="surname">Last Name</label>
+          <input type="text" id="surname" name="surname" placeholder="Surname...">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message..." style="height: 186px"></textarea>
+          <input type="submit" value="Send">
+          <input type="reset" value="Clean">
+        </form>
 
-    </div> 
-    <div >
-      <img src="image/contactus-image.jpg" alt="Contact Us picture" style="width:740px; height:540px;">
+      </div>
+      <div>
+        <img src="image/contactus-image.jpg" alt="Contact Us picture" style="width:740px; height:540px;">
 
-  </div>
-</div>
-</div>
-
-
-
-    <!-- Map -->
-
-    <div class="container text-center">
-      <br>
-      <br>
-     <h1>Map:</h1>      
-      <p>Larnaca Map</p>
+      </div>
     </div>
-
-
-    <div>
-      <br>
-      <div id="map"></div>
-
-      
-
-      <script>
-//map location
-var map = L.map('map').setView([34.923096, 33.634045], 13);
-
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-// popup show map point and text
-L.marker([34.923096, 33.634045]).addTo(map)
-    .bindPopup('Welcome To Cyprus... <br> My Home Town Larnaca.')
-    .openPopup();
-
-      </script>
-
-<br>
-<br>
-    </div>
-
-
-
-
-<!-- Map End-->
-
-<!-- footer -->
-<footer class="footer mt-auto py-3 bg-body-tertiary">
-  <div class="container">
-    <span class="text-body-secondary">© 2025 John Kono. All rights reserved.</span>
   </div>
-</footer>
-<!-- footer End-->
+
+
+
+  <!-- Map -->
+
+  <div class="container text-center">
+    <br>
+    <br>
+    <h1>Map:</h1>
+    <p>Larnaca Map</p>
+  </div>
+
+
+  <div>
+    <br>
+    <div id="map"></div>
+
+
+
+    <script>
+      //map location
+      var map = L.map('map').setView([34.923096, 33.634045], 13);
+
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+
+      // popup show map point and text
+      L.marker([34.923096, 33.634045]).addTo(map)
+        .bindPopup('Welcome To Cyprus... <br> My Home Town Larnaca.')
+        .openPopup();
+
+    </script>
+
+    <br>
+    <br>
+  </div>
+
+
+
+
+  <!-- Map End-->
+
+  <!-- footer -->
+  <footer class="footer mt-auto py-3 bg-body-tertiary">
+    <div class="container">
+      <span class="text-body-secondary">© 2025 John Kono. All rights reserved.</span>
+    </div>
+  </footer>
+  <!-- footer End-->
 
 </body>
+
 </html>
