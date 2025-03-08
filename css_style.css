@@ -26,6 +26,7 @@ html {
   font-size: 16px;
 }
 
+
 .main-banner {
   width: 100%;
   display: block;
@@ -154,13 +155,7 @@ textarea {
     flex: 1 1 100px;
   }
 
-  .visit-page-column-7 {
-    flex: 7;
-  }
-
-  .visit-page-column-5 {
-    flex: 5;
-  }
+ 
 
 }
 
@@ -190,13 +185,6 @@ textarea {
     flex: 1 1 100px;
   }
 
-  .visit-column-7 {
-    flex: 7;
-  }
-
-  .visit-column-5 {
-    flex: 5;
-  }
 
 
 
@@ -214,7 +202,7 @@ textarea {
 
 
 /* ... */
-.history-page-container {
+.banner-container {
   position: relative;
   max-width: auto;
   /* Maximum width */
@@ -223,7 +211,7 @@ textarea {
 }
 
 /* ... */
-.history-page-container .content {
+.banner-container .content {
   position: absolute;
   /* Position the background text */
   bottom: 0;
@@ -256,16 +244,17 @@ textarea {
 
 }
 
-
+/* ... */
 .history-page-row img {
-  width: auto;
-  height: 218px;
+  width: 370px;
+  height: 220px;
   object-fit: cover;
   border-radius: 0px 0px 0 0;
   border: 0px solid #c3bebe;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
+/* ... */
 .history-page-text-container {
   display: flex;
   flex-wrap: wrap;
@@ -273,7 +262,7 @@ textarea {
 
 }
 
-
+/* ... */
 .history-page-text-box {
   padding: 10px;
   margin: 18px;
@@ -283,12 +272,15 @@ textarea {
   background-color: #edebeb;
 }
 
-
+/* ... */
 .visit-page-container {
   flex-wrap: wrap;
   display: flex;
+  gap: 60px;
+ 
 }
 
+/* ... */
 .visit-page-column {
   width: 100%;
   height: auto;
@@ -296,10 +288,21 @@ textarea {
 
 }
 
-.visit-page-img {
+/* ... */
+.visit-page-column img {
   border: 2px solid #c3bebe;
-  width: 100%;
-  object-fit: cover;
+  width: 36%;
   border-radius: 8px 8px 0 0;
-  margin: 14px;
+ 
+  
+}
+
+/* ... */
+.visit-column-7 {
+  flex: 7;
+}
+
+/* ... */
+.visit-column-5 {
+  flex: 5;
 }
