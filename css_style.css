@@ -131,66 +131,6 @@ textarea {
   margin: 10px 0;
 }
 
-/* ... */
-@media (min-width: 200px) and (max-width: 590px) {
-
-  .card {
-    max-width: 90%;
-    margin: 6px auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    width: auto;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-  }
-
-  .card img {
-    width: auto;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
-  }
-
-  .history-page-text-box {
-    flex: 1 1 100px;
-  }
-
- 
-
-}
-
-/* ... */
-
-@media (min-width: 600px) and (max-width: 770px) {
-
-  .card {
-    max-width: 90%;
-    margin: 6px auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    width: auto;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-  }
-
-  .card img {
-    width: auto;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
-  }
-
-
-  .history-page-text-box {
-    flex: 1 1 100px;
-  }
-
-
-
-
-}
-
-
 
 /* ... */
 .history-page-center {
@@ -201,58 +141,44 @@ textarea {
 }
 
 
-/* ... */
+/* banner */
 .banner-container {
   position: relative;
   max-width: auto;
-  /* Maximum width */
   margin: 0 auto;
-  /* Center it */
 }
 
-/* ... */
+/* banner */
 .banner-container .content {
   position: absolute;
-  /* Position the background text */
   bottom: 0;
-  /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0);
-  /* Fallback color */
   background: rgba(0, 0, 0, 0.7);
-  /* Black background with 0.7 opacity */
   color: #f1f1f1;
-  /* Grey text */
   width: 100%;
-  /* Full width */
   padding: 20px;
-  /* Some padding */
-}
-
-/* ... */
-.history-page-column {
-  float: left;
-  width: auto;
-  padding: 2px;
 
 }
 
-/* ... */
-.history-page-row::after {
-  content: "";
-  clear: both;
-  display: table;
+
+
+.history-page-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
 
 }
 
-/* ... */
-.history-page-row img {
-  width: 370px;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 0px 0px 0 0;
-  border: 0px solid #c3bebe;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+.history-page-pictures img{
+  width: 260px;
+  height: 160px;
+  margin: 10px;
 }
+
+
 
 /* ... */
 .history-page-text-container {
@@ -293,7 +219,6 @@ textarea {
   border: 2px solid #c3bebe;
   width: 36%;
   border-radius: 8px 8px 0 0;
- 
   
 }
 
