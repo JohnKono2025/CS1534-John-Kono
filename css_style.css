@@ -5,34 +5,40 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* h1 */
 .myh1 {
   font-size: 58px;
 }
 
+/* h2 */
 .myh2 {
   font-size: 48px;
 }
 
+/* h3 */
 .myh3 {
   font-size: 32px;
 }
 
+/* h4 */
 .myh4 {
   font-size: 18px;
   font-weight: bold;
 }
 
+/* p */
 .myp {
   font-size: 16px;
 }
 
 
+/* img main banner*/
 .main-banner {
   width: 100%;
   display: block;
 }
 
-
+/* contact form */
 input[type=submit],
 input[type=reset] {
   text-align: center;
@@ -99,7 +105,7 @@ textarea {
   resize: vertical;
 }
 
-
+/* Openstreetmap - leafletjs map size*/
 #map {
   height: 490px;
 }
@@ -132,7 +138,7 @@ textarea {
 }
 
 
-/* ... */
+/* history page center */
 .history-page-center {
   display: block;
   margin-left: auto;
@@ -161,7 +167,7 @@ textarea {
 }
 
 
-
+/* history page pictures container  */
 .history-page-pictures {
   display: flex;
   flex-wrap: wrap;
@@ -172,6 +178,7 @@ textarea {
 
 }
 
+/* history page pictures size and margin  */
 .history-page-pictures img{
   width: 260px;
   height: 160px;
@@ -180,7 +187,7 @@ textarea {
 
 
 
-/* ... */
+/* historry page text container */
 .history-page-text-container {
   display: flex;
   flex-wrap: wrap;
@@ -188,7 +195,7 @@ textarea {
 
 }
 
-/* ... */
+/* historry page text */
 .history-page-text-box {
   padding: 10px;
   margin: 18px;
@@ -198,7 +205,7 @@ textarea {
   background-color: #edebeb;
 }
 
-/* ... */
+/* visit page 7:5 ratio conainer */
 .visit-page-container {
   flex-wrap: wrap;
   display: flex;
@@ -206,7 +213,7 @@ textarea {
  
 }
 
-/* ... */
+/* visit page 7:5 ratio column */
 .visit-page-column {
   width: 100%;
   height: auto;
@@ -214,7 +221,7 @@ textarea {
 
 }
 
-/* ... */
+/* visit page 7:5 ratio column picture */
 .visit-page-column img {
   border: 2px solid #c3bebe;
   width: 36%;
@@ -222,12 +229,12 @@ textarea {
   
 }
 
-/* ... */
+/* visit page colum 7*/
 .visit-column-7 {
   flex: 7;
 }
 
-/* ... */
+/*  visit page colum 5 */
 .visit-column-5 {
   flex: 5;
 }
