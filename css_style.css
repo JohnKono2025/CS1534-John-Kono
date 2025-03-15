@@ -35,17 +35,18 @@ html {
 /* img main banner*/
 .main-banner {
   width: 100%;
-  display: block;
+ display: block;
 }
 
-/* contact form */
+/* contact form button */
 input[type=submit],
 input[type=reset] {
+  width: 60px;
+  height: 40px;
   text-align: center;
   font-size: 14px;
   background-color: #454141;
   color: #fff;
-  padding: 10px 26px;
 }
 
 
@@ -93,7 +94,7 @@ footer {
 }
 
 
-/* Contact us form  */
+/* Contact us form text box */
 input[type=text],
 select,
 textarea {
@@ -112,8 +113,11 @@ textarea {
 
 
 .card-group {
+  display: grid;
+  place-items: center;   
   margin: auto;
   gap: 20px;
+  
 }
 
 .card {
@@ -122,7 +126,7 @@ textarea {
   padding: 16px;
   width: 200px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-
+  
 }
 
 .card img {
@@ -237,4 +241,25 @@ textarea {
 /*  visit page colum 5 */
 .visit-column-5 {
   flex: 5;
+}
+
+
+@media (max-width: 768px) {
+  .main-banner {
+    width: 140%;
+ 
+  }
+
+  .visit-page-column img {
+  
+    width: 100%;
+   
+    
+  }
+
+  .myp {
+    font-size: 10px;
+  }
+
+
 }
