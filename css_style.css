@@ -29,6 +29,7 @@ html {
 /* p */
 .myp {
   font-size: 16px;
+  text-align: justify;
 }
 
 
@@ -209,39 +210,6 @@ textarea {
   background-color: #edebeb;
 }
 
-/* visit page 7:5 ratio conainer */
-.visit-page-container {
-  flex-wrap: wrap;
-  display: flex;
-  gap: 60px;
- 
-}
-
-/* visit page 7:5 ratio column */
-.visit-page-column {
-  width: 100%;
-  height: auto;
-  padding: 12px;
-
-}
-
-/* visit page 7:5 ratio column picture */
-.visit-page-column img {
-  border: 2px solid #c3bebe;
-  width: 36%;
-  border-radius: 8px 8px 0 0;
-  
-}
-
-/* visit page colum 7*/
-.visit-column-7 {
-  flex: 7;
-}
-
-/*  visit page colum 5 */
-.visit-column-5 {
-  flex: 5;
-}
 
 
 @media (max-width: 768px) {
@@ -250,15 +218,9 @@ textarea {
  
   }
 
-  .visit-page-column img {
-  
-    width: 100%;
-   
-    
-  }
-
   .myp {
     font-size: 10px;
+    text-align: justify;
   }
 
 
