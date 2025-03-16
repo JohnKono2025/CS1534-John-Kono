@@ -1,0 +1,230 @@
+C:\Users\John\Desktop\CS1534-John Kono>git log --all
+commit d08a18b0863ca0ade68d6c5002385305edbdc5d5 (HEAD -> main, origin/main, origin/HEAD)
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sun Mar 16 19:29:05 2025 +0000
+
+    update readme.md
+
+commit 6f6807c187203e06ee12bbf53a30f13cad68d623
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sun Mar 16 14:09:27 2025 +0000
+
+    delete pdf file
+
+commit 4fa73d92d127c47bbea30003758adca2396d47e8
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sun Mar 16 14:05:41 2025 +0000
+
+    some updates css_style.css and visit.html
+
+commit ff5cdbed9896e27dac050b4294dae96945f94971
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 15 18:49:29 2025 +0000
+
+    update ....
+
+commit d3b600cf67de47b4b047252ea70f387627c4baee
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 15 17:11:53 2025 +0000
+
+    commit_history.pdf created
+
+commit 1ea8b02a000ffa9b3bbd200199ec83491246da74
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 15 17:11:08 2025 +0000
+
+    commit-history.pdf and css update
+
+commit e21937caecf613aa240a495b4c6c1880599389f2
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sun Mar 9 14:00:41 2025 +0000
+
+    updates
+
+commit 671f4378845c11755b699c488596483181ca5d1b
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 8 16:31:55 2025 +0000
+
+    image added and visit,index and history page updated
+
+commit d7512a612cd452d0255ce43b5a76c4febd9804ef
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Fri Mar 7 19:05:57 2025 +0000
+
+    commit
+
+commit 13eec1b1105ddf922fc629d9daf87e0fb5790019
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Fri Mar 7 18:20:53 2025 +0000
+
+    updates
+
+commit 707362da651858b041aa4952e5d682d1e2e897c9
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Fri Mar 7 18:05:17 2025 +0000
+
+    update visit.html and css_style.css and index.html
+
+commit 84bfa539546801bacb2fb428f85ea10128f6d543
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Thu Mar 6 19:04:39 2025 +0000
+
+    updates
+
+commit 42505a6c06965626963eb366531f7f6df6b5be1b
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Wed Mar 5 22:41:28 2025 +0000
+
+    updates
+
+commit 26227963fee82843ed62e12c5d8985ebceeaf46c
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Wed Mar 5 22:36:11 2025 +0000
+
+    update
+
+commit 9d10a863e9a1fca152d6b15fa584030d01a42ac6
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Wed Mar 5 22:14:37 2025 +0000
+
+    index.html banner added history.html updated
+
+commit 4882002ca8bc1759f46c14c03bf1a785968f1fdf
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Wed Mar 5 21:03:06 2025 +0000
+
+    updates index.html,history.html and css
+
+commit 01224f80565c47053b40687e99aae0bcbedb066a
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Tue Mar 4 19:46:43 2025 +0000
+
+    update
+
+commit cdd3a06c7f1a5f3a30f38d4509776ed29606e4a5
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Tue Mar 4 18:52:36 2025 +0000
+
+    update and corrections
+
+commit 0579753141b6adbb63dce8d53d0ce3f9307e6fe2
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Tue Mar 4 18:29:47 2025 +0000
+
+    update history page
+
+commit b11cbe9448318a98ba23d6a973b8ff06b2ffaae3
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Tue Mar 4 18:14:00 2025 +0000
+
+    history page add and edit picture and articles and css updates
+
+commit 79a80edb0c057ea5bde943fd2fccde82da621ebb
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Tue Mar 4 16:46:11 2025 +0000
+
+    updates
+
+commit 8fb7dee9b5bd326b64643a4ba30d97b3e713df6d
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sun Mar 2 22:20:48 2025 +0000
+
+    update
+
+commit c226530cef158b265f9ae5d84e7ef38200e5ed84
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sun Mar 2 22:14:01 2025 +0000
+
+    updates
+
+commit d026e099f83d19d55644f3d77dbf052cd1ddd272
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sun Mar 2 19:48:26 2025 +0000
+
+    updates
+
+commit 83fcba71a0188b43a01b575a48ede4c223d1b8b0
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sun Mar 2 17:37:09 2025 +0000
+
+    weather widget added
+
+commit dcc02e67e4af5c8d1ab44f80a2a03a3495d219d2
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sun Mar 2 17:30:00 2025 +0000
+
+    map added
+
+commit f5c63519dd8ec0fcbb9be21af380acabfe331ac3
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 1 16:45:34 2025 +0000
+
+    commit
+
+commit 5300af2dcf3264e407bc40b83d39a07534042d20
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 1 16:36:11 2025 +0000
+
+    commit
+
+commit 0ec7bae0b3b97fc31e66d2ec489934072c1b208b
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 1 16:04:15 2025 +0000
+
+    corrections
+
+commit 94ced3574deaf30614f52b7338ddb0fe59618b9f
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 1 15:47:32 2025 +0000
+
+    update and changes
+
+commit 49460a8a89f7cebcbb9f6b30867bb6e63be9c4ea
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 1 15:12:53 2025 +0000
+
+    contact us form added
+
+commit 9fdce948173dc357f237dbb465eb090c4978ed2b
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 1 14:06:39 2025 +0000
+
+    some corrections and updates
+
+commit f8644a84df8873a750fde20b4427ecb72097270b
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Sat Mar 1 13:32:40 2025 +0000
+
+    i just add Css, bootstrap and nav menu
+
+commit e788ab81c0425f9a3857fe4d0e3ee0eb85ae59ba
+Merge: 1fcc652 717f5d9
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Mon Feb 24 20:32:03 2025 +0000
+
+    Merge branch 'main' of https://github.com/JohnKono2025/CS1534-John-Kono
+
+commit 1fcc652399a60518de38b505456c50f3e04bd4e9
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Mon Feb 24 20:31:46 2025 +0000
+
+    commit
+
+commit 717f5d92abafb60724d6ab5d70edd32892804acf
+Author: JohnKono2025 <u06jk21@abdn.ac.uk>
+Date:   Mon Feb 24 20:29:17 2025 +0000
+
+    Create README.md
+
+commit ac1d544dd3e507fad8181dbf3c6904242ce55e7e
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Mon Feb 24 20:05:32 2025 +0000
+
+    second Commit
+
+commit 3b759d46d48c198f887f40adb35f2a4e4536e922
+Author: John Kono <u06jk21@abdn.ac.uk>
+Date:   Mon Feb 24 19:59:11 2025 +0000
+
+    init
+(END)
